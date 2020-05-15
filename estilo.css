@@ -176,7 +176,7 @@ nav h1{
 }
 
 #redes-sociais > a{
-    margin: 8px;
+    margin: 8px 12px;
     color: #57504d;
     transition: color 0.6s;
 } 
