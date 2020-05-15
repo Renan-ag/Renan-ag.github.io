@@ -107,7 +107,8 @@ nav h1{
     position: relative;
     border: 2px solid #2a2727;
     border-radius: 12px;
-    background: #393433;
+    background: url(img/Coffe2.png) #393433 no-repeat 50% 45%;
+    background-size: 220px;
 }
 
 .img-card{
@@ -147,13 +148,17 @@ nav h1{
 
 #quem-sou .head-quem-sou > p{
     margin-top: 6px;
-    text-align: left;
-    font-size: 1.05rem;
+    padding: 0.5em;    
+    padding-top: 0;
+    text-align: center;
+    opacity: 0.75;
+    font-size: 1rem;
 }
 
 #quem-sou #interesses{
     font-size: 1rem;
     text-align: center;
+    opacity: 0.75;
 }
 
 #quem-sou > div{
@@ -194,6 +199,10 @@ nav h1{
         flex-direction: row;
     }
     
+    .card{
+        background-size: 280px;
+    }
+    
     #logo-text,nav li{
         border-right: 1px solid rgba(25,25,25,0.3);
         border-bottom: none;
@@ -213,6 +222,7 @@ nav h1{
         margin: 10px 20px;
         font-size: 1.2rem;
         text-align: justify;
+        padding: 0.8em;   
     }
     
     #quem-sou #interesses{
@@ -220,4 +230,14 @@ nav h1{
         font-size: 1.2rem;
     }
     
+}
+
+@media(min-width:1099px){
+        #quem-sou .head-quem-sou > p{
+        font-size: 1.4rem;
+    }
+    
+    #quem-sou #interesses{
+        font-size: 1.4rem;
+    }
 }
