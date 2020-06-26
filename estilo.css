@@ -28,7 +28,7 @@ body{
     font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;    
     font-size:16px;
     color: black;
-    background-color: #57504d; 
+    background-color: #395163; 
 }
 /*HEADER ELEMENTS */
 nav{
@@ -37,16 +37,16 @@ nav{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;    
-    background-color: #453f3d;
+    background-color: #242930;
 }
 
 header{
-    border: 1px solid rgba(25,25,25,0.5);;
+    border: 1px solid rgba(35,35,45,0.5);;
     box-shadow: 1px 2px 12px rgba(25,25,25,0.5);
 }
 
 nav li{
-    border-bottom: 1px solid rgba(142,142,142,0.3);
+    border-bottom: 1px solid rgba(172,172,172,0.3);
     transition: background-color 0.6s;
 }
 
@@ -104,18 +104,18 @@ nav h1{
 .card{
     width: 90vw;
     height: 80%;
-    margin: 20px;
+    margin: 30px 20px;
     position: relative;
-    border: 2px solid #2a2727;
+    border: 2px solid #19242c;
     border-radius: 12px;
-    background: url(img/Coffe2.png) #393433 no-repeat 50% 45%;
+    background: url(img/Coffe2.png) #242930 no-repeat 50% 45%;
     background-size: 220px;
 }
 
 .img-card{
     width:160px;
-    border: 3px solid rgb(77,70,67);
-    border-radius: 98px;
+    border: 2.8px solid #23323d;
+    border-radius: 80px;
     box-shadow: 2px 0 24px rgba(0,0,0,0.65);
     
     position: absolute;
@@ -125,7 +125,7 @@ nav h1{
 }
 
 .espacamento-topo{
-    margin-top: 190px;
+    padding-top: 190px;
 }
 
 /*Quem sou -> card*/
@@ -183,7 +183,7 @@ nav h1{
 
 #redes-sociais > a{
     margin: 8px 12px;
-    color: #57504d;
+    color: #14161a;
     transition: color 0.6s;
 } 
 
@@ -191,15 +191,28 @@ nav h1{
     color: #968b86;
 } 
 
-/* INFORMAÇÕES*/
+#lgradient-quem-info{
+    width: 100%;
+    padding:8px 0;
+    background: linear-gradient(#395163,#304453);
+}
 
+
+/* INFORMAÇÕES*/
 .container-informacoes{
-    border-top: 2px solid rgba(0,0,0,.3);
+    
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color:#304453;
+}
+
+.container-informacoes>h1{
+    font-size: 2em;
+    padding: 20px;
+    margin-top: 10px;
+    color:rgba(255,255,255,0.85);
 }
 
 .container-projetos{
@@ -209,9 +222,9 @@ nav h1{
 
 .projeto{
     min-width:350px;
-    min-height: 210px;
-    width: 45%;
-    margin: 8px auto;
+    min-height: auto;
+    width: 40%;
+    margin: 12px auto;
     border: 1.5px solid rgba(0,0,0,.9);
     border-radius: 10px;
     background:  url('img/Projeto_Flower.png') no-repeat center center;
@@ -299,7 +312,7 @@ nav h1{
     }
     
     #logo-text,nav li{
-        border-right: 1px solid rgba(25,25,25,0.3);
+        border-right: 1.5px solid rgba(53,59,69,.8);
         border-bottom: none;
     }
     
@@ -337,7 +350,8 @@ nav h1{
     }
     
     .projeto{
-        background: cover;
+        width:620px;
+        height: 420px;
     }
     
     .projeto-info > h1{
